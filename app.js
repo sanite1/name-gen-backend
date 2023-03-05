@@ -22,7 +22,7 @@ app.use(express.json())
 
 const corsOption = {
     origin: [
-        "http://localhost:3000/"
+        "https://name-gen.netlify.app"
     ],
     // credentials: true,
     optionSuccessStatus: 200
